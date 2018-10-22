@@ -1,7 +1,4 @@
-package tree;
-
-import java.util.ArrayList;
-import java.util.List;
+package Tree;
 
 public class Tree2str {
     public class TreeNode {

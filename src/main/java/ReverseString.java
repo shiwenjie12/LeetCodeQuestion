@@ -9,4 +9,8 @@ public class ReverseString {
         }
         return new String(chars);
     }
+
+    public static void main(String[] args) {
+        System.out.println(new ReverseString().reverseString("abcd efgh"));
+    }
 }

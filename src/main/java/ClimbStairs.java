@@ -12,6 +12,10 @@ public class ClimbStairs {
     }
 
     public static void main(String[] args) {
+        String cc = null;
+        if (null != cc){
+
+        }
         int ss = climbStairs(1);
     }
 }
