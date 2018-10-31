@@ -17,4 +17,8 @@ public class WordPattern {
         }
         return true;
     }
+
+    public static void main(String[] args) {
+        assert args.length == 8;
+    }
 }
