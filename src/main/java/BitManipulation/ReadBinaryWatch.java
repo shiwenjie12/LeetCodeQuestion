@@ -1,5 +1,6 @@
 package BitManipulation;
 
+import java.util.BitSet;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -23,7 +24,21 @@ public class ReadBinaryWatch {
         return res;
     }
 
+
     public static void main(String[] args) {
+        int newCapacity = 252;
+        newCapacity |= newCapacity >>>  1;
+        newCapacity |= newCapacity >>>  2;
+        newCapacity |= newCapacity >>>  4;
+        newCapacity |= newCapacity >>>  8;
+        newCapacity |= newCapacity >>> 16;
+        newCapacity ++;
+        BitSet cleanerFlags = new BitSet();
+        cleanerFlags.set(2);
+        cleanerFlags.set(6);
+        cleanerFlags.set(9);
+        cleanerFlags.set(15);
+        cleanerFlags.toString();
         System.out.println(new ReadBinaryWatch().BitCount(0));
 
         System.out.println(Integer.bitCount(0));
