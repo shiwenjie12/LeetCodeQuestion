@@ -25,6 +25,15 @@ public class ToHex {
     }
 
     public static void main(String[] args) {
+        int i1 = 10;
+        Integer i2 = new Integer(10);
+        Integer i3 = new Integer(10);
+        System.out.println(i1 ==i2);
+        System.out.println(i2.equals(i3));
+        System.out.println(i3.equals(i1));
+
+        int cc = 1 ^ 4;
+        int cc1 = Integer.numberOfTrailingZeros(cc);
         System.out.println(toHex(26));
     }
 }
