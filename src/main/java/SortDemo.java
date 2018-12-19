@@ -2,11 +2,22 @@ import org.omg.CORBA.INTERNAL;
 
 import javax.swing.plaf.PanelUI;
 import javax.swing.text.rtf.RTFEditorKit;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class SortDemo {
-    public static void  main(String[] args){
-        int[] array = new int[]{4,3,7,4,5,9,7,1,10,2};
-        int[] ss = ShellSort(array);
+    public static void main(String[] args){
+        String[] array = {"1","2","3","4"};
+        listAll(Arrays.asList(array),"");
+        System.out.println();
+    }
+    private static void listAll(List<String> strings, String s) {
+        System.out.println(s);
+        for(int i = 0; i <strings.size() ; i++){
+            List temp = new ArrayList(strings);
+            listAll(temp , s + temp.remove(i));
+        }
     }
 
     // 冒泡
