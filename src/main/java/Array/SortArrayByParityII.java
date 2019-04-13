@@ -1,4 +1,7 @@
-package Array;
-
-public class SortArrayByParityII {
-}
+//package Array;
+//
+//public class SortArrayByParityII {
+//    public int[] sortArrayByParityII(int[] A) {
+//
+//    }
+//}
