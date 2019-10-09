@@ -7,6 +7,6 @@ public class ReverseBits {
         for (int i = 0; i <= 31; i++) {
             result += (1 & (n >> i)) << (31 - i);
         }
-        return result;
+         return result;
     }
 }
