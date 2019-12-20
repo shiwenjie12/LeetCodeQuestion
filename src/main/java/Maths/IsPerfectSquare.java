@@ -1,4 +1,4 @@
-package Math;
+package Maths;
 
 public class IsPerfectSquare {
     public boolean isPerfectSquare(int num) {

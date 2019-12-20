@@ -1,4 +1,4 @@
-package Math;
+package Maths;
 
 public class ReachNumber {
     public int reachNumber(int target) {

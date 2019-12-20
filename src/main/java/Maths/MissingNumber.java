@@ -1,6 +1,4 @@
-package Math;
-
-import java.util.Arrays;
+package Maths;
 
 public class MissingNumber {
     public int missingNumber(int[] nums) {

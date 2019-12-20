@@ -1,4 +1,4 @@
-package Math;
+package Maths;
 
 public class IsRectangleOverlap {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {

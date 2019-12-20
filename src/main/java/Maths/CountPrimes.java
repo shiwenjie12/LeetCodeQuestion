@@ -1,4 +1,4 @@
-package Math;
+package Maths;
 
 public class CountPrimes {
     public int countPrimes(int n) {

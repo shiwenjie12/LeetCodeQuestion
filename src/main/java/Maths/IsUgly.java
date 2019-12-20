@@ -1,4 +1,4 @@
-package Math;
+package Maths;
 
 public class IsUgly {
     public boolean isUgly(int num) {

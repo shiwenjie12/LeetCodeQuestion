@@ -1,4 +1,4 @@
-package Math;
+package Maths;
 
 public class FindNthDigit {
     public int findNthDigit(int n) {

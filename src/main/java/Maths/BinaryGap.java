@@ -1,6 +1,4 @@
-package Math;
-
-import java.sql.SQLOutput;
+package Maths;
 
 public class BinaryGap {
     public int binaryGap(int N) {

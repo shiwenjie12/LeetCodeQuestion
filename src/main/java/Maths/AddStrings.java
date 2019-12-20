@@ -1,4 +1,4 @@
-package Math;
+package Maths;
 
 public class AddStrings {
     public static String addStrings(String num1, String num2) {

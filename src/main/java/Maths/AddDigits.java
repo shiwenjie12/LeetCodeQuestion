@@ -1,9 +1,4 @@
-package Math;
-
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
-import java.util.LinkedList;
-import java.util.List;
+package Maths;
 
 public class AddDigits {
     public int addDigits(int num) {

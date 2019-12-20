@@ -1,4 +1,4 @@
-package Math;
+package Maths;
 
 public class ArrangeCoins {
     public int arrangeCoins(int n) {

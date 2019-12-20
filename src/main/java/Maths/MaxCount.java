@@ -1,4 +1,4 @@
-package Math;
+package Maths;
 
 public class MaxCount {
     public int maxCount(int m, int n, int[][] ops) {

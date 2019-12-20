@@ -1,4 +1,4 @@
-package Math;
+package Maths;
 
 public class LargestTriangleArea {
     public double largestTriangleArea(int[][] points) {

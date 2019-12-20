@@ -1,4 +1,4 @@
-package Math;
+package Maths;
 
 public class IsPowerOfThree {
     public boolean isPowerOfThree(int n) {
